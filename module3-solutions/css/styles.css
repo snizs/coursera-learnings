@@ -7,7 +7,7 @@ body {
 	background-color: black;
 	border-radius: 0;
 	border :0;
-	font-family: 'Anton', sans-serif;
+	font-family: 'Fjalla One', sans-serif;
 	font-weight: bold;
 }
 
@@ -26,6 +26,9 @@ body {
 	font-weight: bolder;
 
 }
+#brand {
+	color: white;
+}
 .content-section {
 	background-color: grey;
 	margin: 10px;
@@ -38,4 +41,31 @@ body {
 }
 p {
 	font-family: 'Josefin Sans', sans-serif;
+}
+#menu-style {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+
+}
+.link-decor {
+	color: black;
+}
+.navbar-collapse.collapse#bs-example-navbar-collapse-1 {
+	background-color: #F08080;
+}
+
+@media(max-width: 766px){
+	.content-section{
+		margin: 70px;
+	}
+}
+
+@media (min-width: 768px){
+.navbar-collapse.collapse#bs-example-navbar-collapse-1 {
+    display: none !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
 }
