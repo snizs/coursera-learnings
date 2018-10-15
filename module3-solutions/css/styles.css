@@ -1,12 +1,41 @@
 body {
 	font-size: 16px;
-	color: #fff;
-	background-color: #61122f ;
-	font-family: sans-serif; 
+	color: #fff; 
 }
 /*header section*/
 #header-nav {
-	background-color: #f6b319;
+	background-color: black;
 	border-radius: 0;
 	border :0;
+	font-family: 'Anton', sans-serif;
+	font-weight: bold;
+}
+
+.brand {
+	color: white;
+}
+
+
+
+#main-heading {
+	color: black;
+	font-family: 'Notable', sans-serif;
+	padding: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-weight: bolder;
+
+}
+.content-section {
+	background-color: grey;
+	margin: 10px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.sub-headings {
+	padding: 5px;
+	font-weight: bold;
+}
+p {
+	font-family: 'Josefin Sans', sans-serif;
 }
