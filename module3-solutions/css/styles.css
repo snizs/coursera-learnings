@@ -55,6 +55,12 @@ p {
 	background-color: #F08080;
 }
 
+.nav.navbar-nav {
+	background-color: #F08080;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 8px 0;
+}
 @media(max-width: 766px){
 	.content-section{
 		margin: 70px;
