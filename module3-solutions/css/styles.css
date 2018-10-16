@@ -31,9 +31,9 @@ body {
 }
 .content-section {
 	background-color: grey;
-	margin: 10px;
 	padding: 10px;
-	margin-bottom: 20px;
+	margin: 0 auto;
+    margin-bottom: 15px;
 }
 .sub-headings {
 	padding: 5px;
@@ -61,13 +61,18 @@ p {
 	margin-bottom: 0;
 	padding: 8px 0;
 }
-@media(max-width: 766px){
-	.content-section{
-		margin: 70px;
-	}
+
+#main-section {
+	padding: 20px;
 }
 
-@media (min-width: 768px){
+@media(max-width: 767px){
+	#main-section {
+	padding: 60px;
+}
+}
+
+@media (min-width: 767px){
 .navbar-collapse.collapse#bs-example-navbar-collapse-1 {
     display: none !important;
     height: auto !important;
